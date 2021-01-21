@@ -18,7 +18,7 @@ import java.util.Optional;
 public class LanguageServiceTest {
 
     @Autowired
-    //private LanguageService languageService;
+    private LanguageService languageService;
     @Mock
     private LanguageDao languageDao;
     @InjectMocks
